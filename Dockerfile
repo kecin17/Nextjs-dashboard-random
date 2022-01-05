@@ -1,4 +1,4 @@
-FROM ubi8/s2i-core:rhel8.5
+FROM registry.access.redhat.com/ubi8/nodejs-16@sha256:972e5f0471fda722c4173c15b28d2916dd9366ad0e9bd4512ff90bb1b77cf7cc
 
 # Create app directory
 RUN mkdir -p /usr/src/app
