@@ -1,0 +1,13 @@
+.git
+.github
+components
+node_modules
+pages
+styles
+.dockerignore
+.DS_Store
+.gitignore
+Dockerfile
+LICENSE.md
+npm-debug.log
+README.md
