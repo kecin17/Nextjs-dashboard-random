@@ -23,7 +23,7 @@ import darkTheme from '../styles/dark-theme'
 import Title from '../components/widgets/title'
 
 export default () => (
-  <Dashboard theme={(Math.floor(Math.random() * 100)%2)?lightTheme:darkTheme}>
+  <Dashboard theme={(Math.floor(Math.random() * 100)%2)==0?lightTheme:darkTheme}>
     <Title>Hello, {random()}</Title>
     <DateTime interval={1000}/>
 
@@ -34,7 +34,7 @@ export default () => (
     <RandomTable
       title='Random Table'
     />
-    
+
     <SurpriseBox />
 
     {/* <PageSpeedInsightsScore url='https://localhost:3000' />
