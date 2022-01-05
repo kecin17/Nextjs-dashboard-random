@@ -15,7 +15,7 @@ RUN yarn --pure-lockfile && yarn cache clean
 COPY . /usr/src/app
 
 # Port
-EXPOSE 3000
+EXPOSE 8080
 
 # Start
 CMD [ "yarn", "start" ]
