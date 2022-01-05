@@ -1,4 +1,4 @@
-FROM node:alpine
+FROM ubi8/s2i-core:rhel8.5
 
 # Create app directory
 RUN mkdir -p /usr/src/app
