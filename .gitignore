@@ -58,7 +58,7 @@ typings/
 .env
 
 # Next.js directory
-.next
+#.next
 
 # Node modules directory
 .node_modules
