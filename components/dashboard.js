@@ -27,10 +27,6 @@ export default ({ children, theme, title = 'Dashboard' }) => (
       <Head>
         <title>{title}</title>
         <link rel='icon' href='/static/favicon.png' />
-        <link
-          href='https://fonts.googleapis.com/css?family=Roboto:300,400,500'
-          rel='stylesheet'
-        />
       </Head>
 
       {children}
