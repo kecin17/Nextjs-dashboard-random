@@ -37,7 +37,7 @@
     "random-name": "^0.1.2",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-    "sharp": "^0.29.3",
+    "sharp": "^0.30.0",
     "styled-components": "^4.4.1",
     "tinytime": "^0.2.6",
     "yup": "^0.32.11"
