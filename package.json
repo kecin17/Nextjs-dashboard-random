@@ -28,7 +28,7 @@
   "dependencies": {
     "-": "0.0.1",
     "babel-plugin-styled-components": "^1.13.3",
-    "dotenv-webpack": "^2.0.0",
+    "dotenv-webpack": "^8.0.0",
     "images": "^3.2.3",
     "isomorphic-unfetch": "^3.1.0",
     "js-base64": "^3.7.2",
